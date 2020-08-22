@@ -8,7 +8,21 @@
     --highlight-4: #9f68d0;
 }
 
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Lato', sans-serif;
+}
+
+.border {
+    height: 6px;
+    border: 0;
+    background-color: var(--highlight-1);
+    background-image: linear-gradient(to right, var(--highlight-1), var(--highlight-1) 25%, var(--highlight-2) 25%, var(--highlight-2) 50%, var(--highlight-3) 50%, var(--highlight-3) 75%, var(--highlight-4) 75%, var(--highlight-4) 100%, var(--highlight-4) 100%);
+    -webkit-background-size: 50% 100%;
+    -moz-background-size: 50% 100%;
+    background-size: 50% 100%;
 }
