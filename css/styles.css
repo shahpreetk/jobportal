@@ -17,7 +17,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.border {
+.headerHighlight {
     height: 6px;
     border: 0;
     background-color: var(--highlight-1);
