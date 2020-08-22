@@ -26,3 +26,24 @@ body {
     -moz-background-size: 50% 100%;
     background-size: 50% 100%;
 }
+
+.nav-link:hover{
+    font-weight: 700;
+}
+
+.btn:hover{
+    border: 1px solid var(--primary);
+    text-decoration-color: var(--secondary);
+    -moz-box-shadow:    3px 3px 3px 3px var(--border);
+    -webkit-box-shadow: 3px 3px 3px 3px var(--border);
+    box-shadow:         3px 3px 3px 3px var(--border);
+}
+
+.btn-head{
+    border: 1px solid var(--border);
+    border-radius: 40px;
+}
+
+.nav-item{
+    margin: 0px 7px;
+}
