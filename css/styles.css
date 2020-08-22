@@ -1,3 +1,14 @@
-body{
+:root {
+    --primary: #34314c;
+    --secondary: #9592ad;
+    --border: #d9dee9;
+    --highlight-1: #fd7473;
+    --highlight-2: #fec951;
+    --highlight-3: #47b8e0;
+    --highlight-4: #9f68d0;
+}
+
+
+body {
     font-family: 'Lato', sans-serif;
 }
