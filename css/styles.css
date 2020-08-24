@@ -53,14 +53,14 @@ body {
     height: 70px;
 }
 
-.card {
+.job-card {
     border: none;
-    -webkit-box-shadow: 3px 6px 20px 5px rgba(133,131,133,0.28);
--moz-box-shadow: 3px 6px 20px 5px rgba(133,131,133,0.28);
-box-shadow: 3px 6px 20px 5px rgba(133,131,133,0.28);
+    -webkit-box-shadow: 3px 6px 20px 5px rgba(133, 131, 133, 0.28);
+    -moz-box-shadow: 3px 6px 20px 5px rgba(133, 131, 133, 0.28);
+    box-shadow: 3px 6px 20px 5px rgba(133, 131, 133, 0.28);
 }
 
-.card-body {
+.jobcard-body {
     align-items: center;
 }
 
@@ -76,20 +76,56 @@ p {
     color: var(--highlight-2);
 }
 
-.contract{
+.contract {
     color: var(--highlight-4);
 }
 
-.freelance{
+.freelance {
     color: var(--highlight-3);
 }
 
-.break{
+.break {
     color: var(--secondary);
     width: 100px;
     margin: auto;
     border: 1px solid var(--border);
-    border-radius: 20px;
+    border-radius: 3em;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+.load {
+    color: var(--highlight-4);
+    width: 120px;
+    align-content: flex-end;
+    border: 1px solid var(--border);
+    border-radius: 3em;
+    font-weight: 700;
+}
+
+.load:hover {
+    cursor: pointer;
+    border: none;
+    -webkit-box-shadow: 3px 6px 20px 5px rgba(133, 131, 133, 0.28);
+    -moz-box-shadow: 3px 6px 20px 5px rgba(133, 131, 133, 0.28);
+    box-shadow: 3px 6px 20px 5px rgba(133, 131, 133, 0.28);
+}
+
+.footer{
+    background-color: var(--border);
+    display: flex;
+}
+
+.preet{
+    background-color: var(--border);
+    border: none;
+}
+
+.terms{
+    /* flex: 2; */
+    background-color: var(--border);
+    text-align: right;
+    border: none;
 }
 
 @media only screen and (max-width:990px) {
