@@ -94,6 +94,30 @@ p {
     font-size: 0.8em;
 }
 
+.break::before{
+    content: " ";
+    margin-left: 5.1%;
+    margin-top: 9px;
+    width: 30%;
+    height: 1px;
+    background: 1px var(--border);
+    position: absolute;
+    /* left: 1.1em; */
+    z-index: 0;
+}
+
+.break::after{
+content: " ";
+margin-left: 15%;
+margin-top: 9px;
+width: 30%;
+height: 1px;
+background: 1px var(--border);
+position: absolute;
+left: 1.1em;
+z-index: 0;
+}
+
 .load {
     color: var(--highlight-4);
     width: 120px;
