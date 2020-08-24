@@ -76,6 +76,18 @@ p {
     color: var(--highlight-2);
 }
 
+.contract{
+    color: var(--highlight-4);
+}
+
+.freelance{
+    color: var(--highlight-3);
+}
+
+.break{
+
+}
+
 @media only screen and (max-width:990px) {
     .col {
         margin-top: 20px;
