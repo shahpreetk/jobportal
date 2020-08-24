@@ -94,7 +94,7 @@ p {
     font-size: 0.8em;
 }
 
-.break::before{
+.break::before {
     content: " ";
     margin-left: 5.1%;
     margin-top: 9px;
@@ -106,16 +106,16 @@ p {
     z-index: 0;
 }
 
-.break::after{
-content: " ";
-margin-left: 15%;
-margin-top: 9px;
-width: 30%;
-height: 1px;
-background: 1px var(--border);
-position: absolute;
-left: 1.1em;
-z-index: 0;
+.break::after {
+    content: " ";
+    margin-left: 15%;
+    margin-top: 9px;
+    width: 30%;
+    height: 1px;
+    background: 1px var(--border);
+    position: absolute;
+    left: 1.1em;
+    z-index: 0;
 }
 
 .load {
@@ -135,28 +135,28 @@ z-index: 0;
     box-shadow: 3px 6px 20px 5px rgba(133, 131, 133, 0.28);
 }
 
-.footer{
+.footer {
     background-color: var(--border);
     display: flex;
 }
 
-.preet{
+.preet {
     background-color: var(--border);
     border: none;
 }
 
-.terms{
+.terms {
     /* flex: 2; */
     background-color: var(--border);
     text-align: right;
     border: none;
 }
 
-a{
+a {
     color: var(--highlight-4);
 }
 
-a:hover{
+a:hover {
     color: var(--primary);
 }
 
@@ -166,8 +166,35 @@ a:hover{
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px){
-    *, html, body{
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    *,
+    html,
+    body {
         font-size: 14px;
+    }
+
+    .break::before {
+        content: " ";
+        margin-left: 15.5%;
+        margin-top: 9px;
+        width: 30%;
+        height: 1px;
+        background: 1px var(--border);
+        position: absolute;
+        /* left: 1.1em; */
+        z-index: 0;
+    }
+
+    .break::after {
+        content: " ";
+        margin-left: 5%;
+        margin-top: 9px;
+        width: 30%;
+        height: 1px;
+        background: 1px var(--border);
+        position: absolute;
+        left: 1.1em;
+        z-index: 0;
     }
 }
